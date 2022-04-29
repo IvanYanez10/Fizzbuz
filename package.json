@@ -1,12 +1,24 @@
 {
   "name": "Fizzbuz",
   "version": "1.0.0",
-  "description": "",
+  "description": "Ejercicio semana 4 launchX",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Ivan Yañez",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanYanez10/Fizzbuz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IvanYanez10/Fizzbuz/issues"
+  },
+  "homepage": "https://github.com/IvanYanez10/Fizzbuz#readme",
+  "dependencies": {
+    "express": "^4.18.0",
+    "jest": "^28.0.2"
+  }
 }
