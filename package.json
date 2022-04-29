@@ -21,10 +21,10 @@
   },
   "homepage": "https://github.com/IvanYanez10/Fizzbuz#readme",
   "dependencies": {
-    "express": "^4.18.0",
-    "jest": "^28.0.2"
+    "express": "^4.18.0"
   },
   "devDependencies": {
-    "eslint": "^8.14.0"
+    "eslint": "^8.14.0",
+    "jest": "^26.0.0"
   }
 }
