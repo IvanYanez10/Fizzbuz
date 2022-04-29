@@ -17,4 +17,9 @@ describe("Testing ExplorerController", () => {
         expect(explorers).toBe(10);
     });
 
+    test("Fizzbuzz status testing", () => {
+        const result = ExplorerController.getFizzbuzzStatus(15);
+        expect(result).toBe("FIZZBUZZ");
+    });
+
 });

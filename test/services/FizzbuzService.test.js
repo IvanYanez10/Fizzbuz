@@ -26,4 +26,24 @@ describe("Testing FizzbuzService", () => {
         expect(explorerResult.trick).toBe("FIZZBUZZ");
     });
 
+    test("Validation number return Fizzbuzz", () => {
+        const explorerResult = FizzbuzzService.applyValidationInNumber(15);
+        expect(explorerResult).toBe("FIZZBUZZ");
+    });
+
+    test("Validation number return Fizz", () => {
+        const explorerResult = FizzbuzzService.applyValidationInNumber(3);
+        expect(explorerResult).toBe("FIZZ");
+    });
+
+    test("Validation number return buzz", () => {
+        const explorerResult = FizzbuzzService.applyValidationInNumber(5);
+        expect(explorerResult).toBe("BUZZ");
+    });
+
+    test("Validation return number", () => {
+        const explorerResult = FizzbuzzService.applyValidationInNumber(1);
+        expect(explorerResult).toBe(1);
+    });
+
 });
