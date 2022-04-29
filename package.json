@@ -4,7 +4,9 @@
   "description": "Ejercicio semana 4 launchX",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./node_modules/.bin/jest",
+    "linter": "node ./node_modules/eslint/bin/eslint.js .",
+    "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix"
   },
   "keywords": [],
   "author": "Ivan Yañez",
@@ -20,5 +22,8 @@
   "dependencies": {
     "express": "^4.18.0",
     "jest": "^28.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0"
   }
 }
